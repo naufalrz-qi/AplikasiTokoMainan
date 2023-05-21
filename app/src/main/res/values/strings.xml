@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Aplikasi Toko Mainan</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="already_have_account_login_here">Already have account? Login here</string>
+    <string name="email">Email</string>
+    <string name="register_form">REGISTER FORM</string>
+    <string name="nama">Nama</string>
+    <string name="alamat_sesuai_ktp">Alamat(sesuai KTP)</string>
+    <string name="no_handphone">No Handphone</string>
+    <string name="sign_in">Sign In</string>
+    <string name="not_registered_yet_register_here">Not registered yet? Register here</string>
+    <string name="data_mainan">DATA MAINAN</string>
+    <string name="tambah">Tambah</string>
+    <string name="selamat_datang_xxx">SELAMAT DATANG, XXX</string>
+    <string name="kamu_memiliki_akses_sebagai_xxxx">Kamu memiliki akses sebagai xxxx</string>
+    <string name="menu_pilihan_yang_tersedia">Menu pilihan yang tersedia :</string>
+    <string name="input_data_mainan">Input Data Mainan</string>
+    <string name="transaksi">Transaksi</string>
+    <string name="laporan">Laporan</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="cari_data">Cari data</string>
+    <string name="data_diri">data diri</string>
+    <string name="no_access">Tidak ada akses</string>
+    <string name="welcome">SELAMAT DATANG,</string>
+    <string name="get_access_as">Kamu memiliki akses sebagai</string>
+    <string name="simpan">Simpan</string>
+    <string name="satuan">Satuan</string>
+    <string name="harga">Harga</string>
+    <string name="merk">Merk</string>
+    <string name="nama_mainan">Nama Mainan</string>
+    <string name="tambah_data">Tambah Data</string>
+    <string name="jumlah">Qty</string>
+    <string name="hapus_data">hapus data</string>
+
+    <string-array name="mode_array">
+        <item>Gudang</item>
+        <item>Kasir</item>
+        <item>Admin</item>
+    </string-array>
+
+    <string-array name="satuan_array">
+        <item>Pcs</item>
+        <item>Rim</item>
+        <item>Lusin</item>
+        <item>Gross</item>
+        <item>Pack</item>
+        <item>Kodi</item>
+        <item>Dus</item>
+    </string-array>
+
+    <string-array name="filter_array">
+        <item>Id</item>
+        <item>Nama</item>
+        <item>Harga</item>
+        <item>Merk</item>
+    </string-array>
+
+
+</resources>

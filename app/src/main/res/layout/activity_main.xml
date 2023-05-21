@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="30dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <TextView
+        android:id="@+id/tv_welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/selamat_datang_xxx"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_akses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/kamu_memiliki_akses_sebagai_xxxx"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="normal" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <TextView
+        android:id="@+id/tv_akses2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_pilihan_yang_tersedia"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:textStyle="normal" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="12dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnDataDiri"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#286464"
+            android:text="@string/data_diri"
+            app:cornerRadius="20dp" />
+
+        <Button
+            android:id="@+id/btnAboutUs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#286464"
+            android:text="Tentang Kami"
+            app:cornerRadius="20dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <Button
+            android:id="@+id/btnDataMasuk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#1E785A"
+            android:text="Transaksi Masuk"
+            app:cornerRadius="20dp" />
+
+        <Button
+            android:id="@+id/btnDataMainan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#1E785A"
+            android:text="@string/data_mainan"
+            app:cornerRadius="20dp" />
+
+        <Button
+            android:id="@+id/btnDataKeluar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#1E785A"
+            android:text="Transaksi Keluar"
+            app:cornerRadius="20dp" />
+
+        <Button
+            android:id="@+id/btnLaporan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#1E785A"
+            android:text="Laporan Keluar"
+            app:cornerRadius="20dp" />
+
+        <Button
+            android:id="@+id/btnLaporanMasuk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#1E785A"
+            android:text="Laporan Masuk"
+            app:cornerRadius="20dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/btnSignOut"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:backgroundTint="@color/darker_gray"
+            android:text="@string/sign_out"
+            app:cornerRadius="20dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "645299783393",
+    "project_id": "aplikasitokomainan-db2c5",
+    "storage_bucket": "aplikasitokomainan-db2c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:645299783393:android:cd44f38c0edb7af89299a0",
+        "android_client_info": {
+          "package_name": "com.kelompok2.rifqi002satriawan001.aplikasitokomainan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "645299783393-7jqgljta6j8f2e40afn63lrrf06k4oev.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8IA8WIKK59_JbLjDcZfa3wWiXNhaVYnA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "645299783393-7jqgljta6j8f2e40afn63lrrf06k4oev.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

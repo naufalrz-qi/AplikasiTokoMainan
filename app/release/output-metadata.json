@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.kelompok2.rifqi002satriawan001.aplikasitokomainan",
+  "variantName": "release",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 1,
+      "versionName": "1.6.35",
+      "outputFile": "app-release.apk"
+    }
+  ],
+  "elementType": "File"
+}
